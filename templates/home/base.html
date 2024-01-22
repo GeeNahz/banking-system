@@ -15,14 +15,14 @@
     </head>
     <body class="bg-gray-100">
         {% block body %}
-            {% include 'core/navbar.html' %}
+            {% include 'home/navbar.html' %}
             <div class="lg:container lg:mx-auto">
-                {% include 'core/messages.html' %}
+                {% include 'home/messages.html' %}
                 {% block content %}
                 <!-- Add content here -->
                 {% endblock %}
             </div>
-            {% include 'core/footer.html' %}
+            {% include 'home/footer.html' %}
 
         {% endblock %}
         {% block footer_extra %}{% endblock %}
